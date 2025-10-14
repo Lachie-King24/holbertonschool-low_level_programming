@@ -16,3 +16,5 @@ This README outlines what each file in this directory does in regards to C progr
 
 7-print_tebahpla is a program that prints the lowerccase alphabet in reverse, followed by a new line
 
+8-print_base16 is a program that prints all the numbers of base 16 in lowercase, followed by a new line
+
