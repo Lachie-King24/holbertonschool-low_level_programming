@@ -13,3 +13,6 @@ This README outlines what each file in this directory does in regards to C progr
 5-print_numbers is a program that prints all single digit numbers of base 10, starting from 0, followed by a new line
 
 6-print_numberz is a program that prints all single digits of base 10 starting from 0, followed by a new line
+
+7-print_tebahpla is a program that prints the lowerccase alphabet in reverse, followed by a new line
+
