@@ -8,3 +8,5 @@ This README will describe what each script within the hello_world directory does
 
 3-name is a script that compiles a C file and creates an executable file named cisfun
 
+4-puts.c is a script that prints "Programming is like building a multilingual puzzle" followed by a new line. Using the function puts
+
