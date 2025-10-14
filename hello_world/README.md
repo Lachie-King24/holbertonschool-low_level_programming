@@ -10,3 +10,5 @@ This README will describe what each script within the hello_world directory does
 
 4-puts.c is a script that prints "Programming is like building a multilingual puzzle" followed by a new line. Using the function puts
 
+5-printf.c is a script that prints exactly with proper grammer, but the outcome is a piece of art,
+
