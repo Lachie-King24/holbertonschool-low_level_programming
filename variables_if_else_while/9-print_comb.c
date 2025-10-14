@@ -7,19 +7,16 @@
 
 int main(void)
 {
-int a, b;
-for (a = 0; a <= 9; a++)
+int i, j;
+for (i = 0; i <= 8; i++)
 {
-for (b = 0; b <= 9; b++)
+for (j = i + 1; j <= 9; j++)
 {
-putchar(a + '0');
-putchar(b + '0');
-if (!(a == 9 && b == 9))
-{
-putchar(',');
-putchar(' ');
+putchar(i + '0');
+putchar(j + '0');
+putchar((i != 8 || j != 9) ? ',' : '\n');
+putchar((i != 8 || j != 9) ? ' ' : 0);
 }
 }
-}
-return (0);
+return 0;
 }
