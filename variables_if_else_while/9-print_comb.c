@@ -18,5 +18,5 @@ putchar((i != 8 || j != 9) ? ',' : '\n');
 putchar((i != 8 || j != 9) ? ' ' : 0);
 }
 }
-return 0;
+return (0);
 }
