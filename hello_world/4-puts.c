@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* Using betty style to create this document  
+/**
+ * Using betty style to create this document  
  * I can comment on multiple lines
  * using main as the main function for my script
 */
