@@ -12,3 +12,4 @@ This README will describe what each script within the hello_world directory does
 
 5-printf.c is a script that prints exactly with proper grammer, but the outcome is a piece of art,
 
+6-size.c is a script that prints the size of various types on the computer it is compiled and run on
