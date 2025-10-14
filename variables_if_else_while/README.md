@@ -8,3 +8,5 @@ This README outlines what each file in this directory does in regards to C progr
 
 3-print_alphabets is a program that will print the alphabet in lowercase, then in uppercase, followed by a new line. Using the putchar function 3 times max.
 
+4-print_alphabt is a program that prints the alphabet in lowercase, without printing the letters q and e.
+
