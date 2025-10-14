@@ -18,3 +18,4 @@ This README outlines what each file in this directory does in regards to C progr
 
 8-print_base16 is a program that prints all the numbers of base 16 in lowercase, followed by a new line
 
+9-print_comb is a program that prints all combinations of single digit numbers
