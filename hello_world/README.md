@@ -4,3 +4,4 @@ This README will describe what each script within the hello_world directory does
 
 1-compiler is a script that compiles a C file, but does not link. The extension will be .o instead of .c
 
+2-assembler is a script that generates the assembly code of a C code and saves it to an output file. The extension will be .s instead of .c
