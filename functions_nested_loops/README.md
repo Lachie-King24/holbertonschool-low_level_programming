@@ -10,3 +10,5 @@ This README details what each program within this directory does in terms of C p
 
 4-isalpha is a function that checks for alphabetic characters, upper or lower
 
+5-sign is a function that checks if a number is positive, negative or zero (0)
+
