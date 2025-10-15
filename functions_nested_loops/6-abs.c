@@ -2,6 +2,8 @@
 
 /**
  * _abs - Compute value of an int
+ * @n: number to check
+ * Return: Always positive
  */
 
 int _abs(int n)
