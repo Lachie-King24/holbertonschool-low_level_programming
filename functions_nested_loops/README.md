@@ -12,3 +12,7 @@ This README details what each program within this directory does in terms of C p
 
 5-sign is a function that checks if a number is positive, negative or zero (0)
 
+6-abs is a function that computers the absolute value of an int
+
+7-print_last_digit is a function that prints the last digit of a number
+
