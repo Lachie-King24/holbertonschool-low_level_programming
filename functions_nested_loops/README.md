@@ -8,3 +8,5 @@ This README details what each program within this directory does in terms of C p
 
 3-islower is a function that checkers for lowercase letters
 
+4-isalpha is a function that checks for alphabetic characters, upper or lower
+
