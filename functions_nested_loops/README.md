@@ -16,3 +16,5 @@ This README details what each program within this directory does in terms of C p
 
 7-print_last_digit is a function that prints the last digit of a number
 
+8-24_hours is a function that prints all 24 hours of a day in 00:00 format
+
