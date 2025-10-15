@@ -4,9 +4,8 @@
  * _islower - Checks for Lowercase character
  */
 
-void _islower(void)
+int _islower(int c)
 {
-int c;
 if (c >= 'a' && c <= 'z')
 {
 _putchar('1');
