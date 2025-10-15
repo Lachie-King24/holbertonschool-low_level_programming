@@ -20,3 +20,5 @@ This README details what each program within this directory does in terms of C p
 
 9-times_table is a function that prints the 9 times table, starting with 0
 
+10-add is a function that adds two integers and prints the result
+
