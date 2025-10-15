@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * _abs - Compute value of an int
+ */
+
+int _abs(int)
+{
+if (int >= 0)
+{
+return (int)
+}
+else
+{
+return (-int);
+}
+}
