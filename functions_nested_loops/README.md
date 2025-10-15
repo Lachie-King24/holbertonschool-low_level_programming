@@ -22,3 +22,4 @@ This README details what each program within this directory does in terms of C p
 
 10-add is a function that adds two integers and prints the result
 
+11-print_to_98 is a function that prints all natural numbers from n to 98
