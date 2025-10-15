@@ -3,7 +3,7 @@
 /**
  * _isalpha - A function to find alphabetic characters
  * @c: character to be checked
- * Return - Either 1 if a letter, lower or upper, or 0 if otherwise
+ * Return: Either 1 if a letter, lower or upper, or 0 if otherwise
  */
 
 int _isalpha(int c)
