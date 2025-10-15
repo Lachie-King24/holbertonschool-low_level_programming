@@ -18,3 +18,5 @@ This README details what each program within this directory does in terms of C p
 
 8-24_hours is a function that prints all 24 hours of a day in 00:00 format
 
+9-times_table is a function that prints the 9 times table, starting with 0
+
