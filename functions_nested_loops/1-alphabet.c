@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * print_alphabet is a function to print alpha
+ */
+
 void print_alphabet(void)
 {
 char letter;
