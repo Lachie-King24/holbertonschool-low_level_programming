@@ -4,6 +4,10 @@
  * main - Entry Point
  *
  * Return: 1 if upper, 0 otherwise
+ *
+ * _isupper - if upper, return 1. otherwise 0
+ *
+ * @c: character to be investigated. return will be an int
  */
 
 int _isupper(int c)
