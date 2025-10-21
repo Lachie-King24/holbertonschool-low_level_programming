@@ -3,7 +3,7 @@
 /**
  * print_diagonal - draws a line diagonally
  *
- * @n - number of lines
+ * @n: number of lines
  */
 
 void print_diagonal(int n)
