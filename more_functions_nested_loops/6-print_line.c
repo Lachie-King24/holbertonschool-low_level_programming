@@ -5,8 +5,6 @@
  *
  * @n: number of _'s to print
  *
- * @u: underline
- *
  * Return: Nothing
  */
 
