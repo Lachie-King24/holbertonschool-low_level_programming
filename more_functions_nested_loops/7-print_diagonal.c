@@ -16,6 +16,7 @@ _putchar('\n');
 for (d = 0; d < n; d++)
 {
 _putchar('\\');
+_putchar('\n');
 }
 _putchar('\n');
 }
