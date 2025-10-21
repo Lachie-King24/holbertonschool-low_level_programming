@@ -16,6 +16,6 @@ if (a == '4' || a == '2')
 else
 {
 _putchar(a);
-_putchar('\n');
 }
+_putchar('\n');
 }
