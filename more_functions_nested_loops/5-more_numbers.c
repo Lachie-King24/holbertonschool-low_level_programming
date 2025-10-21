@@ -15,9 +15,9 @@ for (a = 0; a <= 14; a++)
 {
 if (a >= 10)
 {
-  _putchar('0' + a / 10); /* tens place */
+_putchar('0' + a / 10); /* tens place */
 }
- _putchar('0' + a % 10); /* ones place */
+_putchar('0' + a % 10); /* ones place */
 }
 _putchar('\n');
 }
