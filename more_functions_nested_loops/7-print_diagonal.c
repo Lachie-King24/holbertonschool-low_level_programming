@@ -15,8 +15,9 @@ _putchar('\n');
 }
 for (d = 0; d < n; d++)
 {
+  for (e = 0; e < d; e++)
+    _putchar(' ');
 _putchar('\\');
 _putchar('\n');
 }
-_putchar('\n');
 }
