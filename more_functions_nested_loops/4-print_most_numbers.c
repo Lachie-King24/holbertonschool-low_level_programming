@@ -10,8 +10,9 @@ void print_most_numbers(void)
 {
 int a;
 for (a = '0'; a <= 9; a++)
-if (a = '4' || a = '2')
+if (a == '4' || a == '2')
 {
+return (0)
 }
 else
 {
