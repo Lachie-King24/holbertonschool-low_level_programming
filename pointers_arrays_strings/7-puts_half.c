@@ -11,11 +11,11 @@ int length(char *str)
 	int i;
 
 	i = 0;
-  
+
 	while (str[i] != '\0')
-	  {
-	    i++;
-	  }
+	{
+		i++;
+	}
 	return (i);
 }
 
@@ -33,8 +33,8 @@ void puts_half(char *str)
 		len = len / 2;
 		while (str[len] != '\0')
 		{
-		  _putchar(str[len]);
-		len++;
+			_putchar(str[len]);
+			len++;
 		}
 		_putchar('\n');
 }
