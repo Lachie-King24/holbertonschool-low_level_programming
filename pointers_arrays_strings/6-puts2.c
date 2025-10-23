@@ -1,13 +1,21 @@
 #include "main.h"
 
+/**
+ * length - finds length of string
+ * @str: string
+ * Return: length of string
+ */
+
 int length(char *str)
 {
 	int i;
+
 	i = 0;
+
 	while (str[i] != '\0')
-	  {
-	    i++;
-	  }
+	{
+		i++;
+	}
 	return (i);
 }
 
@@ -19,10 +27,10 @@ int length(char *str)
 void puts2(char *str)
 {
 	int i;
+	int len = length(str);
 
 	i = 0;
-	int len = length(str);
-	
+
 	while (i < len)
 	{
 	_putchar(str[i]);
