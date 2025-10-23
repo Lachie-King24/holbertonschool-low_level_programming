@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * putchars - sets number of characters
+ *
+ * @n: number of characters
+ * @c: character to write
+ */
+
 void putchars(int n, char c)
 {
 	int a;
