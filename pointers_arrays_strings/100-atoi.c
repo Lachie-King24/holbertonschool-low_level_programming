@@ -14,7 +14,7 @@ int _atoi(char *s)
 	int negative = 0;
 	int found_digit = 0;
 	int digit;
-	
+
 	while (s[i] != '\0')
 	{
 	if (s[i] == '-' && !found_digit)
@@ -29,9 +29,9 @@ int _atoi(char *s)
 	digit = s[i] - '0';
 
 		if (!negative && num > (INT_MAX - digit) / 10)
-		return INT_MAX;
+		return (INT_MAX);
 		if (negative && num > (INT_MAX - digit) / 10)
-		return INT_MIN;
+		return (INT_MIN);
 
 		num = num * 10 + digit;
 		found_digit = 1;
@@ -47,5 +47,5 @@ int _atoi(char *s)
 	if (negative)
 	num = -num;
 
-	return num;
+	return (num);
 }
