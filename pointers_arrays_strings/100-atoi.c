@@ -9,21 +9,22 @@
 
 int _atoi(char *s)
 {
-	int i, num = 0;
+	int i = 0, num = 0;
 	int negative = 0;
 	int found_digit = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
-	  {
-
+	while (s[i] != '\0')
+	{
 	if (s[i] == '-' && !found_digit)
 	{
-	negative = !negative;
+		negative = !negative;
 	}
-
+	else if (s[i] == '+' && !found_digit)
+	{
+	}
 	else if (s[i] >= '0' && s[i] <= '9')
 	{
-		int digit = s[i] - '0';
+	int digit = s[i] - '0';
 
 		if (!negative && num > (INT_MAX - digit) / 10)
 		return INT_MAX;
@@ -32,12 +33,13 @@ int _atoi(char *s)
 
 		num = num * 10 + digit;
 		found_digit = 1;
-	}
-	else
+		}
+	else if (found_digit)
 	{
-		if (found_digit)
 		break;
 	}
+
+	i++;
 	}
 
 	if (negative)
