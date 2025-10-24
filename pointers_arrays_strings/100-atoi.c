@@ -9,7 +9,8 @@
 
 int _atoi(char *s)
 {
-	int i = 0, num = 0;
+	int i = 0;
+	int num = 0;
 	int negative = 0;
 	int found_digit = 0;
 
