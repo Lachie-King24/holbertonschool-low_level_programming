@@ -3,6 +3,7 @@
 /**
  * leet - encodes a string into leet
  * @s: string to translate
+ * Return: string
  */
 
 char *leet(char *s)
