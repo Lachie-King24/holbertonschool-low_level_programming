@@ -4,6 +4,7 @@
  * *_strncat - concatenate two strings
  * @dest: destination string
  * @src: source string
+ * @n: number of bytes to transfer
  * Return: Destination
  */
 
