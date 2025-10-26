@@ -14,20 +14,20 @@ char *cap_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			s[i] = s[i] - 32;
-		}
-		else if (s[i] >= 'a' && s[i] <= 'z')
-		{
-			while (separators[j] != '\0')
+			if (i == 0)
+				s[i] = s[i] - 32;
+			else
 			{
-				if (s[i - 1] == separators[j])
+				for (j = 0; sep[j] != '\0'; j++)
 				{
-					s[i] = s[i] - 32;
-					break;
+					if (s[i - 1] == sep[j])
+					{
+						s[i] = s[i] - 32;
+						break;
+					}
 				}
-				j++;
 			}
 		}
 		i++;
