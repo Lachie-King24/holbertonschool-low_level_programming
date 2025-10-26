@@ -21,3 +21,19 @@ This README goes through what each function/script does in this directory
 9-strcpy.c is a function that copies the string pointed to by src, including the terminating null byte \0
 
 100-atoi.c is a function that converts a string to an integer
+
+0-strcat.c is a function that concatenates two strings
+
+1-strncat.c is a function that concatenates two strings, however it will use n bytes from src and src does not need to be null terminated
+
+2-strncpy.c is a function that copies a string
+
+3-strcmp is a function that compares two strings
+
+4-rev_array.c is a function that reverses the content of an array of integers
+
+5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase
+
+6-cap_string.c is a function that capitalizes all words of a string
+
+7-leet.c is a function that encodes a string into 1337
