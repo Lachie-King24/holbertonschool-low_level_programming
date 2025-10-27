@@ -2,7 +2,7 @@
 
 /**
  * _memset - fills memory with a constant byte
- * @s: pointer to a character 
+ * @s: pointer to a character
  * @b: character
  * @n: unsigned number of bytes
  * Return: Character
