@@ -5,6 +5,7 @@
  * @dest: destination
  * @src: source
  * @n: number of memory
+ * Return: destination
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
