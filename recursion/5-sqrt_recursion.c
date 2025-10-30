@@ -2,7 +2,7 @@
 
 /**
  * workOut - calculates multiples of x
- * _sqrt_recursion - uses workOut to match the value of x to be the square root of 9
+ * _sqrt_recursion - match the value of x to square root of 9
  * @n: number entered
  * @x: square root of number
  * Return: square root of n
@@ -12,7 +12,7 @@ int workOut(int n, int x)
 {
 	if (x * x == n)
 	{
-	  return (x);
+	return (x);
 	}
 	if (x * x > n)
 	{
