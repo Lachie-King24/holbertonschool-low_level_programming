@@ -2,10 +2,9 @@
 
 /**
  * workOut - calculates multiples of x
- * _sqrt_recursion - match the value of x to square root of 9
- * @n: number entered
- * @x: square root of number
- * Return: square root of n
+ * @n: number to check
+ * @x: number to use recursion on
+ * Return: x or fail
  */
 
 int workOut(int n, int x)
@@ -20,6 +19,12 @@ int workOut(int n, int x)
 	}
 	return (workOut(n, x + 1));
 }
+
+/**
+ * _sqrt_recursion - find natural square root of n
+ * @n: number to check
+ * Return: n or fail
+ */
 
 int _sqrt_recursion(int n)
 {
