@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+/**
+ * main - add positive numbers
+ * @argc: argument count
+ * @argv: argument array
+ * Return: 0 if fine, 1 if error
+ */
+
 int main(int argc, char *argv[])
 {
 	int result;
