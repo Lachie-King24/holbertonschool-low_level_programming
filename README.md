@@ -9,3 +9,7 @@ functions_nested_loops - is a directory with functions of C programming. Focusin
 more_functions_nested_loops - is a directory that goes through more functions of loops
 
 recursion - is a directory that contains funtions that go through recursions within c, such as factorial
+
+malloc_free - is a directory that goes through the usage of malloc and manual memory allocation
+
+more_malloc_free - is a directory that goes through more usage of malloc and manual memory allocation
