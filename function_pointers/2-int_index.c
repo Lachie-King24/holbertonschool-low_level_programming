@@ -4,7 +4,7 @@
  * int_index - returns an integer
  * @array: array of int
  * @size: 
- *
+ * @cmp: pointer to function
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -12,7 +12,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	int i;
 
 if (array == NULL)
-	return (-1);	
+	return (-1);
 if (cmp == NULL)
 	return (-1);
 if (size <= 0)
