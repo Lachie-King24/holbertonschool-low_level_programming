@@ -3,7 +3,7 @@
 /**
  * int_index - returns an integer
  * @array: array of int
- * @size: 
+ * @size: size of array
  * @cmp: pointer to function
  */
 
