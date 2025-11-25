@@ -2,7 +2,7 @@
 
 /**
  * add_node - add a node at the beginning of list_t
- * @head - pointer to a pointer of a node
+ * @head: - pointer to a pointer of a node
  * @str: pointer to string/node to add
  * Return: address of new element. NULL if fail
  */
