@@ -2,7 +2,6 @@
 
 /**
  * print_list - prints list of the nodes
- * @list_t: list of nodes
  * @h: pointer to list node
  * Return: the number of nodes
  */
