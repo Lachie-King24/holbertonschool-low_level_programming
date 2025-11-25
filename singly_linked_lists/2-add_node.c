@@ -10,6 +10,7 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *carrier;
+	unsigned int len;
 
 	if (head == NULL)
 		return (NULL);
@@ -25,7 +26,10 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	carrier->len = strlen(str);
+	for (len = 0; str[len] != '\0'; len++)
+	;
+	carrier->len = len;
+
 	carrier->next = *head;
 	*head = carrier;
 
