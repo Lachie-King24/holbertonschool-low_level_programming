@@ -1,4 +1,4 @@
-#include "links.h"
+#include "lists.h"
 
 /**
  * sum_dlistint - returns the sum of all data
