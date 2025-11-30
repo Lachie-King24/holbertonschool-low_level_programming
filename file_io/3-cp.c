@@ -4,13 +4,15 @@
 #include <fcntl.h>
 
 /**
-	* main - copies content to another file
-	* @argc: argument within list
-	* @argv: array of arguments
-	* Return: int
-	*/
+* BUFFER_SIZE - size of buffer
+*/
 
 #define BUFFER_SIZE 1024
+
+/**
+ * close_fd - Closes a file descriptor and exits on failure
+ * @fd: The file descriptor to close
+ */
 
 void close_fd(int fd)
 {
@@ -20,6 +22,13 @@ void close_fd(int fd)
 		exit(100);
 	}
 }
+
+/**
+ * print_read_error - Prints read error and exits
+ * @filename: Name of the file that could not be read
+ * @fd_from: File descriptor of file_from (-1 if not open)
+ * @fd_to: File descriptor of file_to (-1 if not open)
+ */
 
 void print_read_error(char *filename, int fd_from, int fd_to)
 {
@@ -31,6 +40,13 @@ void print_read_error(char *filename, int fd_from, int fd_to)
 	exit(98);
 }
 
+/**
+ * print_write_error - Prints write error and exits
+ * @filename: Name of the file that could not be written to
+ * @fd_from: File descriptor of file_from (-1 if not open)
+ * @fd_to: File descriptor of file_to (-1 if not open)
+ */
+
 void print_write_error(char *filename, int fd_from, int fd_to)
 {
 	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
@@ -40,6 +56,14 @@ void print_write_error(char *filename, int fd_from, int fd_to)
 		close(fd_to);
 	exit(99);
 }
+
+/**
+* main - copies content to another file
+* @argc: argument within list
+* @argv: array of arguments
+* BUFFER_SIZE - size of buffer
+* Return: int
+*/
 
 int main(int argc, char *argv[])
 {
